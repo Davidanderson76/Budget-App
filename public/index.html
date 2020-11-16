@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="theme-color" content="#317EFB">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
   <link rel="shortcut icon" href="icons/icon-192x192.png" type="image/x-icon">
-
+  <meta name="theme-color" content="#eb5717"/>
+  <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/style.css" />
 
-  <title>Budget Tracker</title>
+  <title>Budget Tracker App</title>
 </head>
 <body>
   <div class="wrapper">
@@ -23,6 +23,10 @@
       <input type="number" min="0" id="t-amount" placeholder="Transaction amount" />
       <button id="add-btn"><i class="fa fa-plus buttons"></i> Add Funds</button>
       <button id="sub-btn"><i class="fa fa-minus"></i> Subtract Funds</button>
+      <!-- 
+        Eventually adding the clear all records button here
+        <button id="del-btn"><i class="fa fa-trash"></i>Delete Records</button> 
+      -->
       <p class="error"></p>
     </div>
 
@@ -33,7 +37,6 @@
           <th>Amount</th>
         </thead>
         <tbody id="tbody">
-          
         </tbody>
       </table>
     </div>
@@ -42,7 +45,7 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-  <script src="/public/db.js"
+  <script src="/db.js"></script>
   <script src="index.js"></script>
   <script>  
           if ("serviceWorker" in navigator) {

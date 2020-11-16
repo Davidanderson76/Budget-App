@@ -1,0 +1,63 @@
+body {
+  font-size: 120%;
+  font-family: Arial;
+  background: #e1e6d5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #df8e8f, #e1e6d5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #df8e8f, #e1e6d5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+button, input {
+  font-size: 100%;
+  font-family: Arial;
+  background: #e1e6d5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #df8e8f, #e1e6d5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #df8e8f, #e1e6d5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+table {
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+  background: #e1e6d5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e0787a, #e4b6a4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e0787a, #e4b6a4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.error {
+  color: red;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 825px;
+  text-align: center;
+}
+
+.total {
+  font-size: 150%;
+  text-decoration: underline overline;
+  text-shadow:5px 5px 10px black;
+}
+
+.form {
+  margin-top: 25px;
+  width: 100%;
+}
+
+.transactions {
+  text-align: left;
+  max-height: 300px;
+  overflow: auto;
+  width: 90%;
+  margin: 0 auto;
+  text-shadow: initial;
+}
+
+#t-name {
+  font-variant: small-caps ;
+}
